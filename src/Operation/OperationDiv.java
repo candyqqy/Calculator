@@ -33,8 +33,10 @@ public class OperationDiv extends Operation {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+        } else {
+            result = getNumberA() / getNumberB();
+            return result;
         }
-        result = getNumberA() / getNumberB();
-        return result;
+        return Double.parseDouble(null);
     }
 }
