@@ -7,6 +7,7 @@ public class Operation {
 
     private double numberA;
     private double numberB;
+    private double value;
 
     public double getNumberA() {
         return numberA;
@@ -24,7 +25,16 @@ public class Operation {
         this.numberB = numberB;
     }
 
-    public double getResult() {
-        return 0;
+    public double getValue() {
+        return value;
     }
+
+    public void setValue(double value) {
+        this.value = value;
+    }
+
+    public double getResult() {
+        return Double.parseDouble(null);
+    }
+
 }
