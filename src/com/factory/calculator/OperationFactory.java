@@ -1,3 +1,5 @@
+package com.factory.calculator;
+
 import Operation.OperationAdd;
 import Operation.OperationSub;
 import Operation.OperationMul;

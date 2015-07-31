@@ -1,7 +1,8 @@
+package com.factory.calculator;
+
 import Operation.Operation;
 
 import java.util.Scanner;
-import java.util.*;
 
 /**
  * Created by qqy on 15/7/30.
@@ -25,10 +26,10 @@ public class Calculator {
         System.out.print("please input number B:");
         double numberB = input.nextDouble();
         System.out.print("please input operator:");
-        String oper = input.next();
+        String operate = input.next();
         System.out.println("==============================");
-        result = returnResult(numberA, numberB, oper);
-        System.out.println(numberA+oper+numberB+"="+result);
+        result = returnResult(numberA, numberB, operate);
+        System.out.println(numberA+operate+numberB+"="+result);
 
     }
 
